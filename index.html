@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style the navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      background-color: #333;
+    }
+
+    /* Style the "Projects" list item */
+    ul.navbar > li {
+      display: inline;
+    }
+
+    /* Style the "Projects Files" nested list */
+    ul.navbar ul {
+      list-style-type: none;
+      padding: 0;
+      display: none;
+      position: absolute;
+      background-color: #333;
+    }
+
+    /* Style the "Projects Files" list item */
+    ul.navbar ul li {
+      display: block;
+    }
+
+    /* Define the hover effect to show the nested list */
+    ul.navbar > li:hover ul {
+      display: block;
+    }
+
+    /* Style the links */
+    ul.navbar a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    /* Style links on hover */
+    ul.navbar a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="#">Projects</a>
+      <ul>
+        <li><a href="Projects/Cat/index.html">CAT</a></li>
+        <li><a href="Projects/Product/index.html">Product</a></li>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</body>
+</html>
