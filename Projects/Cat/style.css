@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(33, 33, 33);
+}
+.displayBtn{
+    position: relative;
+    width: 400px;
+    height: 150px;
+    margin-left: 25%;
+    border-radius: 10px;
+    background-color: rgb(68, 67, 67);
+}
+.btn1{
+    position: absolute;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    top: 50%;
+    left: 20px;
+    font-size: large;
+    background-color: green;
+
+}
+.btn2{
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 50px;
+    left: 280px;
+    top: 50%;
+    font-size: large;
+    background-color: red;
+}
+.image1Position{
+    margin-left: 30%;
+    width: 200px;
+    
+}
+.image2Position{
+    margin-left: 30%;
+    width: 200px;
+}
+.image3Position{
+    margin-left: 30%;
+    width: 200px;
+}
+.image4Position{
+    margin-left: 30%;
+    width: 200px;
+}
